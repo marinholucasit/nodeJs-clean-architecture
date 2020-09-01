@@ -4,5 +4,8 @@
   "description": "Api aplicando os conceitos de Clean Architecture",
   "main": "index.js",
   "author": "Marinho Lucas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "git-commit-msg-linter": "^2.5.3"
+  }
 }
