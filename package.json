@@ -1,0 +1,8 @@
+{
+  "name": "node-clean-architecture",
+  "version": "1.0.0",
+  "description": "Api aplicando os conceitos de Clean Architecture",
+  "main": "index.js",
+  "author": "Marinho Lucas",
+  "license": "ISC"
+}
