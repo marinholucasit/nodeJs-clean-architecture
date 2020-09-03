@@ -1,6 +1,14 @@
 {
   "extends": "standard-with-typescript",
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "project": "./tsconfig.json"
-  }
+  },
+  "rules": {
+    "no-use-before-define": ["error", { "variables": false }],
+    "no-redeclare":"off",
+  },
+  "plugins": [
+    "@typescript-eslint"
+  ]
 }
