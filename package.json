@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Marinho Lucas",
   "scripts": {
-    "test": "jest --passWithNoTests",
+    "test": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests"
   },
   "license": "ISC", 
